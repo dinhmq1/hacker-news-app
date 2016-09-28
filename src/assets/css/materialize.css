@@ -4146,8 +4146,9 @@ nav #yc-logo-sm {
   float: left;
   width: 47%;
   max-width: 120px;
+  border: 2px solid white;
   margin-left: 30%;
-  margin-top: auto;
+  margin-top: 3%;
   margin-bottom: auto;
   height: auto;
 }
