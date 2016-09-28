@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/dinhmq1/hacker-news-app/issues"
   },
-  "homepage": "https://github.com/dinhmq1/hacker-news-app#readme"
+  "homepage": "https://github.com/dinhmq1/hacker-news-app#readme",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "firebase": "^3.4.1"
+  }
 }
