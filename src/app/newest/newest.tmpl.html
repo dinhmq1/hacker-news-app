@@ -1,20 +1,30 @@
-<header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
-  <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-  </div>
-  <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-    <h3><img class="nav-logo" src="../assets/images/ycomb-logo.png" alt="Y Combinator Logo">Hacker News</h3>
-  </div>
-  <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-  </div>
-  <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
-    <a href="/#/" class="mdl-layout__tab">Overview</a>
-    <a href="/#newest" class="mdl-layout__tab is-active">Newest</a>
-    <a href="#features" class="mdl-layout__tab">Details</a>
-    <a href="#features" class="mdl-layout__tab">Technology</a>
-    <a href="#features" class="mdl-layout__tab">FAQ</a>
-  </div>
-</header>
+<nav class="light-blue lighten-1" role="navigation">
+  <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img id="yc-logo-sm" src="assets/images/yc-logo.png"></a>
+    <a id="logo-container" href="#" class="brand-logo-word">Hacker News</a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="/#/">Overview</a></li>
+      <li class="active"><a href="/#newest">Newest</a></li>
+    </ul>
 
-<div class="mdl-layout__tab-panel is-active" id="overview">
-  Hello! {{newest.title}}
+    <ul id="nav-mobile" class="side-nav">
+      <li><a href="#">Navbar Link</a></li>
+    </ul>
+    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+  </div>
+</nav>
+<!-- Begin Landing Hero Section -->
+<div class="section no-pad-bot" id="index-banner">
+  <div class="container">
+    <br><br>
+    <h1 class="header center orange-text">Hello! {{newest.title}}</h1>
+    <div class="row center">
+      <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+    </div>
+    <div class="row center">
+      <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
+    </div>
+    <br><br>
+
+  </div>
 </div>
+<!-- End Landing Hero Section -->
