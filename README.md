@@ -1,4 +1,4 @@
-Hacker News App
+Hacker News App !
 =========
 
 Welcome to the Hacker News App app. It is built using AngularJS with Firebase as the backend.
