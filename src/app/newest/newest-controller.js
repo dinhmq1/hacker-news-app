@@ -1,9 +1,42 @@
+'use strict';
+
 angular.module('app')
-  .controller('NewestCtrl', function(){
+  .controller('NewestCtrl', function(ItemsModel, $state){
 
     console.log('NewestCtrl successfully loaded!');
 
-    var newest = this;
+    var ctrl = this;
 
-    newest.title = 'Newest!';
-  });
+    ctrl.title = "Most Recent Tech News";
+
+    ItemsModel.getItems()
+      .then(function(items){
+        ctrl.items = items;
+      })
+      .catch(function(error){
+        ctrl.error = error;
+      })
+      .finally(function(){
+        ctrl.message = 'FINALLY DONE!';
+      });
+
+    ctrl.setCurrentItem = function(item) {
+      ctrl.currentItem = item;
+    };
+  })
+  //.constant('ENDPOINT_URI', 'https://hacker-news.firebaseio.com/v0/item/')
+  .factory('ItemsModel', function($http, $q, ENDPOINT_URI){
+
+    function extract(result){
+      return result.data;
+    }
+
+    function getItems() {
+      return $http.get(ENDPOINT_URI + 'topstories.json?print=pretty').then(extract);
+    }
+
+    return {
+      getItems: getItems
+    }
+  })
+;

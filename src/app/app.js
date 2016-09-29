@@ -6,7 +6,7 @@ angular.module('app', [
   'firebase',
   'app.common'
 ])
-  .constant('ENDPOINT_URI', 'https://app.firebaseio.com/')
+  .constant('ENDPOINT_URI', 'https://hacker-news.firebaseio.com/v0/')
   .config(function ($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise('/');
 
@@ -19,7 +19,7 @@ angular.module('app', [
         url:'/newest',
         templateUrl: 'app/newest/newest.tmpl.html',
         controller: 'NewestCtrl',
-        controllerAs: 'newest'
+        controllerAs: 'ctrl'
       })
     ;
   })
