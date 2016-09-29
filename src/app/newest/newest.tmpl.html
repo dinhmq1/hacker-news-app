@@ -18,29 +18,26 @@
     <br><br>
     <h2 class="header center orange-text">{{ctrl.title}}</h2>
     <div class="row center">
-      <h5 class="header col s12 light">The latest tech news on computer science and entrepreneurship. In general, the content submitted is defined as "anything that gratifies one's intellectual curiosity".</h5>
-    {{ctrl.items}}
     </div>
-    <div class="container" ng-repeat="item in ctrl.items">
+
+    <div class="container">
       <div class="col s12 m6">
         <div class="card blue-grey darken-1">
           <div class="card-content white-text">
-            <span class="card-title">{{item.name}}</span>
-            <p>{{item.description}}</p>
+            <div style="text-align:center;" class="card-title">
+              {{ctrl.items.title}}
+            </div>
+            <div style="float: right;">
+              <p>{{ctrl.items.time * 1000 | date:'MM-dd-yyyy'}}</p>
+            </div>
           </div>
           <div class="card-action">
-            <a href="#">This is a link</a>
-            <a href="#">This is a link</a>
+            <a ng-href="{{ctrl.items.url}}" target="_blank">source link</a>
+            <p class="right-items-card">{{ctrl.items.score}} points by {{ctrl.items.by}}</p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="row center">
-      <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
-    </div>
-    <br><br>
-
   </div>
 </div>
-<!-- End Landing Hero Section -->

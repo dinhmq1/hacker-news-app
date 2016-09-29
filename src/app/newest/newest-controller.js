@@ -11,6 +11,7 @@ angular.module('app')
 
     ItemsModel.getItems()
       .then(function(items){
+        //console.log(items);
         ctrl.items = items;
       })
       .catch(function(error){
@@ -28,11 +29,12 @@ angular.module('app')
   .factory('ItemsModel', function($http, $q, ENDPOINT_URI){
 
     function extract(result){
+      console.log(result.data);
       return result.data;
     }
 
     function getItems() {
-      return $http.get(ENDPOINT_URI + 'topstories.json?print=pretty').then(extract);
+      return $http.get(ENDPOINT_URI + 'item/12606995.json?print=pretty').then(extract);
     }
 
     return {
