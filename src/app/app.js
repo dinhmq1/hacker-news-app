@@ -6,7 +6,7 @@ angular.module('app', [
   'firebase',
   'app.common'
 ])
-  .constant('ENDPOINT_URI', 'https://hacker-news.firebaseio.com/v0/')
+  .constant('ENDPOINT_URI', '/app/public/items.json')
   .config(function ($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise('/');
 

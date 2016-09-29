@@ -34,7 +34,7 @@ angular.module('app')
     }
 
     function getItems() {
-      return $http.get(ENDPOINT_URI + 'item/12606995.json?print=pretty').then(extract);
+      return $http.get(ENDPOINT_URI).then(extract);
     }
 
     return {

@@ -20,23 +20,25 @@
     <div class="row center">
     </div>
 
-    <div class="container">
+    <div class="container" ng-repeat="items in ctrl.items | orderBy: '-score'">
       <div class="col s12 m6">
         <div class="card blue-grey darken-1">
           <div class="card-content white-text">
+            {{$index+1}}
             <div style="text-align:center;" class="card-title">
-              {{ctrl.items.title}}
+              {{items.title}}
             </div>
             <div style="float: right;">
-              <p>{{ctrl.items.time * 1000 | date:'MM-dd-yyyy'}}</p>
+              <p>{{items.time * 1000 | date:'MM-dd-yyyy'}}</p>
             </div>
           </div>
           <div class="card-action">
-            <a ng-href="{{ctrl.items.url}}" target="_blank">source link</a>
-            <p class="right-items-card">{{ctrl.items.score}} points by {{ctrl.items.by}}</p>
+            <a ng-href="{{items.url}}" target="_blank">source link</a>
+            <p class="right-items-card">{{items.score}} points by {{items.by}}</p>
           </div>
         </div>
       </div>
+      <br><br>
     </div>
 
   </div>
