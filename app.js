@@ -7,7 +7,7 @@ angular.module('app', [
   'app.common',
   'ng-fx'
 ])
-  .constant('ENDPOINT_URI', '/app/public/items.json')
+  .constant('ENDPOINT_URI', 'items.json')
   .config(function ($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise('/newest');
 
