@@ -1,0 +1,32 @@
+<!-- Begin Landing Hero Section -->
+<div class="section no-pad-bot" id="index-banner">
+  <div class="container">
+    <br><br>
+    <h2 class="header center orange-text">{{ctrl.title}}</h2>
+    <div class="row center">
+    <br><br>
+    </div>
+    <div ng-repeat="items in ctrl.items | orderBy: '-score'">
+      <div class="col s12 m6 z-depth-2">
+        <div class="card blue-grey darken-1">
+          <div class="card-content white-text">
+            {{$index+1}}
+            <div style="text-align:center;" class="card-title">
+              {{items.title}}
+            </div>
+            <div style="float: right;">
+              <p>{{items.time * 1000 | date:'MM-dd-yyyy'}}</p>
+            </div>
+          </div>
+          <div class="card-action">
+            <a ng-href="{{items.url}}" target="_blank">source link</a>
+            <p class="right-items-card">{{items.score}} points by {{items.by}}</p>
+          </div>
+        </div>
+      </div>
+      <br><br>
+    </div>
+
+  </div>
+</div>
+</div

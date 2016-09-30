@@ -1,0 +1,24 @@
+{
+  "name": "hacker-news-app",
+  "version": "1.0.0",
+  "description": "A beautiful frontend for Hacker News",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinhmq1/hacker-news-app.git"
+  },
+  "author": "Mike Dinh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dinhmq1/hacker-news-app/issues"
+  },
+  "homepage": "https://github.com/dinhmq1/hacker-news-app#readme",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "firebase": "^3.4.1",
+    "ng-fx": "^2.0.4"
+  }
+}

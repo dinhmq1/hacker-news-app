@@ -17,8 +17,8 @@ angular.module('app', [
         templateUrl: 'app/main/main.html',
       })
       .state('newest', {
-        url:'/https://dinhmq1.github.io/hacker-news-app',
-        templateUrl: 'app/newest/newest.tmpl.html',
+        url:'/newest',
+        templateUrl: 'newest.tmpl.html',
         controller: 'NewestCtrl',
         controllerAs: 'ctrl'
       })
