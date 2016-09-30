@@ -13,8 +13,8 @@
   <script src="assets/js/plugin/pace.min.js"></script>
 </head>
 
-<body ng-controller="MainCtrl as main" ng-class="{loading:loadingView}">
-
+<body ng-controller="MainCtrl as main" autoscroll="true">
+<div id="top">
   <!-- Preloader -->
   <div class="preloader-bg"></div>
   <div class="preloader">
@@ -52,7 +52,7 @@
     </div>
   </div>
 
-  <a class="btn-floating btn-large waves-effect waves-light grey darken-2" href="#top">
+  <a class="btn-floating btn-large waves-effect waves-light grey darken-2" data-scroll-to="#top">
     <i class="material-icons">keyboard_arrow_up</i>
   </a>
 
@@ -71,6 +71,7 @@
       </div>
     </div>
   </footer>
+</div>
 </div>
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
