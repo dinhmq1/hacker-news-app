@@ -122,7 +122,74 @@
 		"title": "Facebook Ordered to Stop Collecting Data on WhatsApp Users in Germany",
 		"type": "story",
 		"url": "http://www.nytimes.com/2016/09/28/technology/whatsapp-facebook-germany.html"
+	}, {
+		"by": "pcrh",
+		"descendants": 26,
+		"id": 12611479,
+		"kids": [12612026, 12611992, 12611887, 12611866, 12611908, 12611912, 12611680, 12611722, 12611785, 12611772, 12611695],
+		"score": 73,
+		"time": 1475229398,
+		"title": "Live thread: Rosetta to collide with Comet 67P today at 11:18 GMT",
+		"type": "story",
+		"url": "http://www.bbc.co.uk/news/live/science-environment-37499184"
+	}, {
+		"by": "chrtze",
+		"descendants": 0,
+		"id": 12611377,
+		"score": 66,
+		"time": 1475227423,
+		"title": "Best practice examples of data journalism and visualization projects",
+		"type": "story",
+		"url": "https://github.com/wbkd/awesome-interactive-journalism"
+	}, {
+		"by": "jeffbarr",
+		"descendants": 57,
+		"id": 12610804,
+		"kids": [12611108, 12611920, 12611253, 12611166, 12611327, 12611823, 12611109, 12611156, 12611084, 12611204, 12611126, 12611193, 12611069, 12611094],
+		"score": 100,
+		"time": 1475216903,
+		"title": "New P2 Instance Type for Amazon EC2 – Up to 16 GPUs",
+		"type": "story",
+		"url": "https://aws.amazon.com/blogs/aws/new-p2-instance-type-for-amazon-ec2-up-to-16-gpus/"
+	}, {
+		"by": "ingve",
+		"descendants": 18,
+		"id": 12611055,
+		"kids": [12611579, 12611625, 12611365, 12611273, 12611594, 12611321, 12611616],
+		"score": 58,
+		"time": 1475221857,
+		"title": "Computing primes with CSS",
+		"type": "story",
+		"url": "http://nedbatchelder.com//blog/201609/computing_primes_with_css.html"
+	}, {
+		"by": "okket",
+		"descendants": 1,
+		"id": 12611187,
+		"kids": [12611848],
+		"score": 29,
+		"time": 1475224362,
+		"title": "Comet from 8.9 km",
+		"type": "story",
+		"url": "http://www.esa.int/spaceinimages/Images/2016/09/Comet_from_8.9_km_narrow-angle_camera"
+	}, {
+		"by": "csomar",
+		"descendants": 45,
+		"id": 12611513,
+		"kids": [12611754, 12611995, 12611911, 12611820, 12611845, 12612031, 12611758, 12611867, 12611811, 12611898],
+		"score": 69,
+		"time": 1475229920,
+		"title": "Germany Says No Bailouts for Deutsche Bank or Any Other Struggling Lenders",
+		"type": "story",
+		"url": "http://fortune.com/2016/09/29/deutsche-bank-germany-bailout/"
+	}, {
+		"by": "transcranial",
+		"descendants": 5,
+		"id": 12610386,
+		"kids": [12611940, 12611969, 12611964, 12611903],
+		"score": 38,
+		"time": 1475206150,
+		"title": "Microsoft creates 5000-person AI division",
+		"type": "story",
+		"url": "http://news.microsoft.com/2016/09/29/microsoft-expands-artificial-intelligence-ai-efforts-with-creation-of-new-microsoft-ai-and-research-group/#sm.00000dc4b2waghefhrxcgap7egc9c"
 	}
-
-
 ]
