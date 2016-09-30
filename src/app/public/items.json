@@ -84,6 +84,44 @@
 		"title": "Why and how you ought to keep multibyte character support simple [pdf]",
 		"type": "story",
 		"url": "https://www.openbsd.org/papers/eurobsdcon2016-utf8.pdf"
+	}, {
+		"by": "chungchungz",
+		"descendants": 0,
+		"id": 12610338,
+		"score": 8,
+		"time": 1475205222,
+		"title": "Applying machine learning to the freight industry",
+		"type": "story",
+		"url": "http://blog.traintracks.io/data-culture-interview-kontainers/"
+	}, {
+		"by": "sohkamyung",
+		"descendants": 113,
+		"id": 12595628,
+		"kids": [12596130, 12596759, 12596908, 12596088, 12603932, 12596408, 12596096, 12598109, 12596103, 12596118, 12597746, 12596373, 12597068, 12596123, 12596171, 12598259, 12599006, 12598591, 12596537, 12596524, 12598640, 12596038, 12597361, 12596152],
+		"score": 375,
+		"time": 1475040746,
+		"title": "Let 'localhost' be localhost",
+		"type": "story",
+		"url": "https://tools.ietf.org/html/draft-west-let-localhost-be-localhost-02"
+	}, {
+		"by": "wstrange",
+		"descendants": 0,
+		"id": 12609775,
+		"score": 6,
+		"time": 1475194472,
+		"title": "Oracle loses (again)",
+		"type": "story",
+		"url": "http://www.theregister.co.uk/2016/09/29/oracle_loses_again/"
+	}, {
+		"by": "mh-cx",
+		"descendants": 423,
+		"id": 12588449,
+		"kids": [12591214, 12590002, 12588793, 12588535, 12588630, 12588592, 12588619, 12590147, 12590412, 12588517, 12590050, 12591597, 12589245, 12591175, 12590942, 12588512, 12589852, 12590843, 12590285, 12588705, 12590272, 12588530, 12590080, 12588683],
+		"score": 647,
+		"time": 1474971475,
+		"title": "Facebook Ordered to Stop Collecting Data on WhatsApp Users in Germany",
+		"type": "story",
+		"url": "http://www.nytimes.com/2016/09/28/technology/whatsapp-facebook-germany.html"
 	}
 
 

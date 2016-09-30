@@ -5,14 +5,42 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
   <title>Hacker News</title>
-
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <!-- <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/> -->
+  <link href="assets/css/styles.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!-- Preloader (Pace.js) -->
+  <script src="assets/js/plugin/pace.min.js"></script>
 </head>
 
-<body ng-controller="MainCtrl as main">
+<body ng-controller="MainCtrl as main" ng-class="{loading:loadingView}">
+
+  <!-- Preloader -->
+  <div class="preloader-bg"></div>
+  <div class="preloader">
+    <span></span>
+  </div>
+
+  <div class="app-wrap">
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img id="yc-logo-sm" src="assets/images/yc-logo.png"></a>
+      <a id="logo-container" href="#" class="brand-logo-word">Hacker News</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a>Home</a></li>
+        <li class="active"><a href="/#newest">New</a></li>
+        <li><a>Comment</a></li>
+        <li><a>Show</a></li>
+        <li><a>Ask</a></li>
+        <li><a>Job</a></li>
+        <li><a>Submit</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
 <div ui-view></div>
 
   <div class="container">
@@ -43,10 +71,11 @@
       </div>
     </div>
   </footer>
-
+</div>
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="assets/js/materialize.js"></script>
+  <script src="assets/js/init.js"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.10.3/TweenMax.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-animate.js"></script>
@@ -60,7 +89,6 @@
   <!-- <script src="app/common/models/newest-model.js"></script> -->
   <script src="app/newest/newest-controller.js"></script>
   <script src="app/main/main-controller.js"></script>
-  <script src="assets/js/init.js"></script>
 
 
 </body>
