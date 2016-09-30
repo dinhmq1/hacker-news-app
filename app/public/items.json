@@ -1,0 +1,128 @@
+[{
+		"by": "bryanmau1",
+		"descendants": 141,
+		"id": 12606995,
+		"kids": [12608468, 12607166, 12607611, 12607029, 12607217, 12608382, 12607101, 12607527, 12607334, 12607920, 12607484, 12607108, 12608123, 12607803, 12607308, 12608424, 12608340, 12607772, 12608502, 12609085, 12608036, 12608039, 12608699, 12608107, 12607516, 12607526, 12607156, 12608355],
+		"score": 292,
+		"time": 1475169244,
+		"title": "Bringing Pokémon GO to life on Google Cloud",
+		"type": "story",
+		"url": "https://cloudplatform.googleblog.com/2016/09/bringing-Pokemon-GO-to-life-on-Google-Cloud.html"
+	}, {
+		"by": "rogerdickey",
+		"id": 12609292,
+		"score": 1,
+		"time": 1475187617,
+		"title": "Gigster (YC S15) Is Looking for an Engineering Manager",
+		"type": "job",
+		"url": "https://jobs.lever.co/gigster/f175721f-0554-4a53-bd1e-4ce3cc2bf418"
+	}, {
+		"by": "eth0up",
+		"descendants": 0,
+		"id": 12608778,
+		"score": 21,
+		"time": 1475183348,
+		"title": "Unethical human experimentation in the United States",
+		"type": "story",
+		"url": "https://en.wikipedia.org/wiki/Unethical_human_experimentation_in_the_United_States"
+	}, {
+		"by": "eth0up",
+		"descendants": 0,
+		"id": 12608778,
+		"score": 21,
+		"time": 1475183348,
+		"title": "Unethical human experimentation in the United States",
+		"type": "story",
+		"url": "https://en.wikipedia.org/wiki/Unethical_human_experimentation_in_the_United_States"
+	}, {
+		"by": "weatherlight",
+		"descendants": 137,
+		"id": 12608421,
+		"kids": [12609259, 12609434, 12609235, 12608823, 12609180, 12608923, 12609407, 12609234, 12609139, 12608755, 12609191, 12608790, 12608428, 12609144, 12609067, 12609167, 12609302, 12609060, 12609250],
+		"score": 168,
+		"time": 1475180155,
+		"title": "Atmospheric carbon dioxide passes 400ppm",
+		"type": "story",
+		"url": "http://www.climatecentral.org/news/world-passes-400-ppm-threshold-permanently-20738"
+	}, {
+		"by": "dwaxe",
+		"descendants": 89,
+		"id": 12608116,
+		"kids": [12608464, 12608728, 12608345, 12609314, 12608376, 12608310, 12608692, 12609123, 12608243, 12608292, 12608256, 12608658, 12608708],
+		"score": 125,
+		"time": 1475177535,
+		"title": "Hard Tech Startups",
+		"type": "story",
+		"url": "https://blog.ycombinator.com/hard-tech-startups"
+	}, {
+		"by": "mikecarlton",
+		"descendants": 21,
+		"id": 12609752,
+		"kids": [12610151, 12609860, 12610145, 12610033, 12610059, 12610042, 12610112, 12609953, 12609772, 12609899],
+		"score": 66,
+		"time": 1475194171,
+		"title": "DNS-over-HTTPS",
+		"type": "story",
+		"url": "https://developers.google.com/speed/public-dns/docs/dns-over-https"
+	}, {
+		"by": "axg",
+		"descendants": 16,
+		"id": 12609308,
+		"kids": [12609551, 12609917, 12609809, 12610058, 12609620, 12609748, 12609973, 12609533, 12609648],
+		"score": 47,
+		"time": 1475187839,
+		"title": "The Keyword – New central source for news and stories about Google",
+		"type": "story",
+		"url": "https://blog.google/"
+	}, {
+		"by": "protomyth",
+		"descendants": 4,
+		"id": 12609014,
+		"kids": [12610114, 12609836, 12610065],
+		"score": 50,
+		"time": 1475185419,
+		"title": "Why and how you ought to keep multibyte character support simple [pdf]",
+		"type": "story",
+		"url": "https://www.openbsd.org/papers/eurobsdcon2016-utf8.pdf"
+	}, {
+		"by": "chungchungz",
+		"descendants": 0,
+		"id": 12610338,
+		"score": 8,
+		"time": 1475205222,
+		"title": "Applying machine learning to the freight industry",
+		"type": "story",
+		"url": "http://blog.traintracks.io/data-culture-interview-kontainers/"
+	}, {
+		"by": "sohkamyung",
+		"descendants": 113,
+		"id": 12595628,
+		"kids": [12596130, 12596759, 12596908, 12596088, 12603932, 12596408, 12596096, 12598109, 12596103, 12596118, 12597746, 12596373, 12597068, 12596123, 12596171, 12598259, 12599006, 12598591, 12596537, 12596524, 12598640, 12596038, 12597361, 12596152],
+		"score": 375,
+		"time": 1475040746,
+		"title": "Let 'localhost' be localhost",
+		"type": "story",
+		"url": "https://tools.ietf.org/html/draft-west-let-localhost-be-localhost-02"
+	}, {
+		"by": "wstrange",
+		"descendants": 0,
+		"id": 12609775,
+		"score": 6,
+		"time": 1475194472,
+		"title": "Oracle loses (again)",
+		"type": "story",
+		"url": "http://www.theregister.co.uk/2016/09/29/oracle_loses_again/"
+	}, {
+		"by": "mh-cx",
+		"descendants": 423,
+		"id": 12588449,
+		"kids": [12591214, 12590002, 12588793, 12588535, 12588630, 12588592, 12588619, 12590147, 12590412, 12588517, 12590050, 12591597, 12589245, 12591175, 12590942, 12588512, 12589852, 12590843, 12590285, 12588705, 12590272, 12588530, 12590080, 12588683],
+		"score": 647,
+		"time": 1474971475,
+		"title": "Facebook Ordered to Stop Collecting Data on WhatsApp Users in Germany",
+		"type": "story",
+		"url": "http://www.nytimes.com/2016/09/28/technology/whatsapp-facebook-germany.html"
+	}
+
+
+]
