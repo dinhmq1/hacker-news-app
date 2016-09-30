@@ -4091,6 +4091,19 @@ nav .nav-wrapper {
   height: 100%;
 }
 
+#span-logo-container {
+  position: absolute;
+}
+#brand-img {
+  position: relative;
+  display: inline;
+}
+#brand-text {
+  float: left;
+  margin-left: 40%;
+  padding-left: 1%;
+}
+
 @media only screen and (min-width: 993px) {
   nav a.button-collapse {
     display: none;
@@ -4126,7 +4139,7 @@ nav .brand-logo-word {
   color: #000000;
   display: inline-block;
   font-size: 2.1rem;
-  padding: 0;
+  padding-left: 1.1111%;
   white-space: nowrap;
 }
 
@@ -4171,11 +4184,24 @@ nav #yc-logo-sm {
     right: 0.5rem;
     left: auto;
   }
+
+  #span-logo-container {
+    margin-left: 35%;
+  }
+
 }
 
-@media only screen and (max-width: 1430px){
+@media only screen and (max-width: 401px) {
+
+  #span-logo-container {
+    margin-top: 1%;
+    margin-left: 25%;
+  }
+}
+
+@media only screen and (max-width: 1365px){
   nav .brand-logo-word {
-    display: none;
+    display: block;
   }
 }
 
