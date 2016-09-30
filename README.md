@@ -1,7 +1,7 @@
 Hacker News App !
 =========
 
-Welcome to the Hacker News App app. It is built using AngularJS with Firebase as the backend.
+Welcome to the Hacker News App . It is built using AngularJS with YCombinator Hacker News Firebase API as the backend.
 
 
 Challenges
@@ -16,12 +16,7 @@ Before you start, you will need:
 
 Setting up Firebase
 -------------------
-To start off, you will need to set up an account with Firebase:
-* Navigate to [firebase.com](https://www.firebase.com/) and click `Sign Up`
-* Create an app (named whatever you want)
-* Click on your new app's URL
-* Navigate to the `Login & Auth` section of your dashboard and check the `Enable Email & Password Authentication` checkbox.
-* Navigate to the data tab and then copy the URL from your address bar. It should have the form of `https://<your-app-name>.firebaseio.com`.
+To start off, YC has provided an open backend, https://hacker-news.firebaseio.com/v0/:
 * Open the `src/app/app.js` file and replace the `ENDPOINT_URI` constant with the URL you copied. MAKE SURE there is a trailing slash at the end of the URL.
 
 Get the Code

@@ -7,7 +7,7 @@ angular.module('app')
 
     var ctrl = this;
 
-    ctrl.title = "Most Recent Tech News";
+    ctrl.title = "Current News";
 
     ItemsModel.getItems()
       .then(function(items){

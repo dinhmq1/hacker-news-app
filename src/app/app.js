@@ -4,11 +4,12 @@ angular.module('app', [
   'ui.router',
   'ngAnimate',
   'firebase',
-  'app.common'
+  'app.common',
+  'ng-fx'
 ])
   .constant('ENDPOINT_URI', '/app/public/items.json')
   .config(function ($stateProvider, $urlRouterProvider) {
-    $urlRouterProvider.otherwise('/');
+    $urlRouterProvider.otherwise('/newest');
 
     $stateProvider
       .state('/', {
